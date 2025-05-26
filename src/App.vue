@@ -20,6 +20,9 @@
 <script>
 // bu yerga har doim biz scriptlarni yozamiz hatto import qilmoqchi boslak ham
 export default {
+  data(){
+    return{
+      message: 'Salom Vue! bugun 2-dars',
   data() {
     return {
       message: 'Salom Vue!',
@@ -45,11 +48,21 @@ export default {
 <style>
 div {
   color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .menubox {
   width: 100px;
   height: 100px;
+
+  background-color: red;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px
+  }
   border-radius: 50%;
   background-color: blue;
   margin: 10px;
