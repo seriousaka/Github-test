@@ -14,7 +14,7 @@
 export default {
   data(){
     return{
-      message: 'Salom Vue!',
+      message: 'Salom Vue! bugun 2-dars',
       showmenu: false
     }
   },
@@ -37,11 +37,17 @@ export default {
 <style>
 div {
   color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .menubox {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: red;
   margin: 10px;
-  border: 1px solid black;}
+  border: 1px solid black;
+  border-radius: 10px
+  }
 </style>
